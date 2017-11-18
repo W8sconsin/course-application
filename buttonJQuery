@@ -1,0 +1,9 @@
+$(function(){
+    $(document).on('click','a',function(event){//binds listener to image link, clears content on click instead of actually going anywhere
+        event.preventDefault();
+        $("#content").empty();
+    });
+    $("#searchBtn").click(function(event){//note, button is not named yet.
+        //search function goes here
+    });
+});
