@@ -1,0 +1,11 @@
+insert into course (id, name, description) values
+    ('RCS317', 'Advance OO', 'Advance OO Programming with Java'),
+    ('RCS327', 'Web Dev', 'Web Development');
+
+insert into textbook (course_id, isbn, name) values
+    ('RCS317', 'IS123-9011', 'Java: How to Program'),
+    ('RCS327', 'IS222-8000-100', 'Web Developer Guide');
+
+insert into section (course_id, id, day_of_week, time) values
+    ('RCS317', 'SECT100', 'M', '6:00PM-8:30PM'),
+    ('RCS327', 'SECT200', 'M', '6:00PM-8:30PM');
