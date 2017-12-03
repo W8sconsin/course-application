@@ -71,5 +71,5 @@ abstract class AbstractBaseController
      * @param array $params URL parameters
      */
     abstract function process($params);
-
 }
+

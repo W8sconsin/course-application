@@ -5,20 +5,15 @@
  * Date: 12/1/2017
  * Time: 8:40 AM
  */
-
-
 class SectionDao
 {
-
     /**
      * Returns an array of Color objects.  Empty array is returned if none exist.
      * @return array
      */
-
     public function __construct()
     {
     }
-
     public function getAll()
     {
         $sql = "select * from section order by section" ;
@@ -33,7 +28,6 @@ class SectionDao
         }
         return $result;
     }
-
     private function create($row)
     {
         return new Section($row["section"], $row["days"], $row["time"]);

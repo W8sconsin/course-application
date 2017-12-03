@@ -64,3 +64,7 @@ footer {
 footer .copyright{
     float:right;
 }
+th{
+    color:white;
+    background-color: grey;
+}
